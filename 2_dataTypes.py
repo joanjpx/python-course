@@ -28,6 +28,15 @@ print(arrayString[1]);
 tuple = (1,2,3,4,5,6);
 print(type(tuple));
 
-#
+#DICTORIONIES
+d = {
+    "name":"Joan",
+    "lastName":"Perez",
+    "nickname":"@joan.jpx"
+    }
+print(type(d));
+
+## NONE
+print(type(None));
 
 
