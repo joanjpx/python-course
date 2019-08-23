@@ -11,3 +11,5 @@ print(myString.capitalize());
 
 ## CHAINED METHODS
 print(myString.replace('hello','bye').upper());
+
+print(myString.count('o'));
