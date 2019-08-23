@@ -13,3 +13,5 @@ print(myString.capitalize());
 print(myString.replace('hello','bye').upper());
 
 print(myString.count('o'));
+
+print(myString.startswith('hello'));
