@@ -19,5 +19,6 @@ colors.extend(['cyan','magent']);
 colors.extend(['pink','black']);
 colors.insert(len(colors),'violet');
 print(colors)
-colors.pop()
+colors.pop(0);
+colors.remove('pink');
 print(colors)
