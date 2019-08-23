@@ -14,11 +14,28 @@ range_list = list(range(1,100));
 #print(len(colors));
 #print(colors[1]);
 #print('red' in colors); True || False
+
+## ADD ITEMS
 colors.append('purple');
 colors.extend(['cyan','magent']);
 colors.extend(['pink','black']);
 colors.insert(len(colors),'violet');
+
 print(colors)
-colors.pop(0);
-colors.remove('pink');
+
+##REMOVE ITEMS
+#colors.pop(0);
+#colors.remove('pink');
+#colors.clear()
+
 print(colors)
+
+## SORTING ITEMS
+colors.sort()
+#colors.sort(reverse=True)
+
+## GETTING INDEX
+#print(colors.index('red'));
+
+## COUNTING ITEM
+print(colors.count('red'))
