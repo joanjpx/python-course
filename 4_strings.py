@@ -14,4 +14,8 @@ print(myString.replace('hello','bye').upper());
 
 print(myString.count('o'));
 
+#Determinar palabras al principio o fin de una cadena.
 print(myString.startswith('hello'));
+print(myString.endswith('world'));
+
+print(myString.split());
