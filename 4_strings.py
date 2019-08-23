@@ -1,5 +1,6 @@
 ## STRINGS
-myString = "hello world";
+myString = "Joan";
+lastName = "Alvarado";
 
 ## Dir para saber lo que se puede hacer con un string // Get Strings Functions
 
@@ -26,4 +27,9 @@ myString = "hello world";
 # print(myString.isnumeric());
 # print(len(myString));
 
-print(myString[-1]);
+#print(myString[-1]);
+
+## Contatenaciones
+print("My Name is " + myString);
+print(f"My Name is {myString}");
+print("My Name is {0} {1}".format(myString,lastName));
