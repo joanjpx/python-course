@@ -28,7 +28,7 @@ print(arrayString[1]);
 tuple = (1,2,3,4,5,6);
 print(type(tuple));
 
-#DICTORIONIES
+# DICTIONARIES
 d = {
     "name":"Joan",
     "lastName":"Perez",
