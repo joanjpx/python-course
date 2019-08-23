@@ -13,4 +13,11 @@ range_list = list(range(1,100));
 #print(dir(colors));
 #print(len(colors));
 #print(colors[1]);
-print('red' in colors);
+#print('red' in colors); True || False
+colors.append('purple');
+colors.extend(['cyan','magent']);
+colors.extend(['pink','black']);
+colors.insert(len(colors),'violet');
+print(colors)
+colors.pop()
+print(colors)
