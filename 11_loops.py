@@ -16,3 +16,12 @@ for item in array:
 ## Working with strings
 for letter in "Hello World":
     print(letter);
+
+
+
+## WHILE LOOP
+count = 1;
+
+while count <= 10:
+    count = count+1;
+    print(count);
