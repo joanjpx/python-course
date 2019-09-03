@@ -10,4 +10,8 @@ ln = input('apellido:');
 
 if name=="Joan":
     if ln=="Perez":
-        print(f"You are: {name} {ln}");
+        print(f"You are {name} {ln}");
+    else:
+        print("You're Joan but not Perez");
+else:
+    print("You're not Joan Perez");
