@@ -1,6 +1,6 @@
-x = 50;
+x = 20
 
 if x > 30:
-    print(x);
+    print("X is greater than 30")
 else:
-    print("x is < 30")
+    print("x is lower than 30")
