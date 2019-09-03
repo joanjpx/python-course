@@ -1,3 +1,6 @@
-x = 20;
+x = 50;
 
-print(x);
+if x > 30:
+    print(x);
+else:
+    print("x is < 30")
