@@ -15,3 +15,10 @@ if name=="Joan":
         print("You're Joan but not Perez");
 else:
     print("You're not Joan Perez");
+
+number = input('Give me a number');
+
+if float(number) < 10 and float(number) > 0:
+    print("This number is between 10-0");
+else:
+    print("This number is out of 10-0");
