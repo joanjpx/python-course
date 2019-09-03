@@ -5,5 +5,9 @@ if x > 30:
 else:
     print("x is lower than 30")
 
-name = input('name:');
-lastName = input('lastName:');
+name = input('nombre:');
+ln = input('apellido:');
+
+if name=="Joan":
+    if ln=="Perez":
+        print(f"You are: {name} {ln}");
